@@ -12,6 +12,8 @@ export function HomePage() {
             <Button counter={10}>Посмотреть</Button>
             <Button counter={10} appearance="coloured">Посмотреть</Button>
             <Button counter={10} appearance="shadowed">Посмотреть</Button>
+            С иконкой
+            <Button icon={"Updates"} counter={10} appearance="coloured">Обновления</Button>
         </div>
     );
 }

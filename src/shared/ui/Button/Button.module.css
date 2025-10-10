@@ -7,6 +7,11 @@
     border-radius: 10px;
     color: inherit;
     transition: all .3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
 }
 
 .outlined, .coloured:hover {
@@ -34,7 +39,6 @@
     border-radius: 50%;
     color: inherit;
     transition: all .3s;
-    margin-left: 10px;
 }
 
 .outlined .counter, .coloured:hover .counter, .shadowed .counter {
@@ -45,4 +49,10 @@
 
 .outlined:hover .counter, .coloured .counter, .shadowed:hover .counter {
     background: var(--black-color);
+}
+
+/*Иконка*/
+.button svg {
+    width: 20px;
+    height: 20px;
 }
