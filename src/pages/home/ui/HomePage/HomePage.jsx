@@ -1,4 +1,4 @@
-import { Button, CloseButton } from "../../../../shared";
+import { Button, CloseButton, Graph } from "../../../../shared";
 import { Card } from "../../../../shared/ui/Card/Card";
 
 
@@ -29,6 +29,9 @@ export function HomePage() {
             <Card attributeDesc={"Дней без перерывов"} attributeValue={"10"} icon={"StudyTime"}/>
             <Card attributeDesc={"Пройдено уроков"} attributeValue={"10"} icon={"DoneLessons"}/>
             <Card attributeDesc={"Получено достижений"} attributeValue={<>8<span>/11</span></>} icon={"Achievements"}/>
+        
+            <Graph/>
+        
         </div>
     );
 }

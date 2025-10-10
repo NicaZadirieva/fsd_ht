@@ -1,3 +1,6 @@
-import { Button } from "./Button/Button";
-import { CloseButton } from "./CloseButton/CloseButton";
-export { Button, CloseButton }
+import { Button } from "./Button";
+import { Card } from "./Card";
+import { CloseButton } from "./CloseButton";
+import { Graph } from "./Graph";
+
+export { Button, Card, CloseButton, Graph };
