@@ -26,3 +26,23 @@
 .shadowed:hover {
     background: var(--violet-color);
 }
+
+
+/*Счетчик*/
+.counter {
+    padding: 5px;
+    border-radius: 50%;
+    color: inherit;
+    transition: all .3s;
+    margin-left: 10px;
+}
+
+.outlined .counter, .coloured:hover .counter, .shadowed .counter {
+    background: var(--violet-color);
+
+
+}
+
+.outlined:hover .counter, .coloured .counter, .shadowed:hover .counter {
+    background: var(--black-color);
+}
