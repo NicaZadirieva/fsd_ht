@@ -6,6 +6,7 @@
     padding: 12px 24px 12px 24px;
     border-radius: 10px;
     color: inherit;
+    transition: all .3s;
 }
 
 .outlined, .coloured:hover {
@@ -20,4 +21,8 @@
 
 .shadowed {
     background: var(--violet-dark-color);
+}
+
+.shadowed:hover {
+    background: var(--violet-color);
 }
