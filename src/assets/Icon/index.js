@@ -17,6 +17,7 @@ import Bonuses from "./icons/panel/bonuses.svg";
 import Profile from "./icons/panel/profile.svg";
 import Help from "./icons/panel/help.svg";
 import CloseIcon from "./icons/CloseIcon.svg";
+import MoreButton from "./icons/moreButton.svg";
 
 export const Icon = {
     Achievements,
@@ -27,6 +28,7 @@ export const Icon = {
     Courses,
     DoneLessons,
     Map,
+    MoreButton,
     ProcessedTime,
     Profile,
     PurpleSchool,

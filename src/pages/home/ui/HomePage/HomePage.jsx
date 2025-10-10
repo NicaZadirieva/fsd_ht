@@ -1,4 +1,5 @@
 import { Button, CloseButton } from "../../../../shared";
+import { Card } from "../../../../shared/ui/Card/Card";
 
 
 export function HomePage() {
@@ -18,6 +19,8 @@ export function HomePage() {
 
             Кнопка закрытия
             <CloseButton/>
+
+            <Card/>
         </div>
     );
 }

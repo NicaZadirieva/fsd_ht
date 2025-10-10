@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--gray-light-color);
+}
+.more--button {
+    margin-left: auto;
+    align-self: flex-start;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.more--button svg {
+    margin-top: 4px;
+}
+
+.card-content__value {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.card-content__description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
