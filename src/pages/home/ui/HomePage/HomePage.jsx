@@ -20,7 +20,15 @@ export function HomePage() {
             Кнопка закрытия
             <CloseButton/>
 
-            <Card/>
+            Карточки
+            <Card onMoreClick={() => {}} attributeDesc={"Баллов"} attributeValue={"3 500"} icon={"StatisticsBonuses"}/>
+            <Card onMoreClick={() => {}} attributeDesc={"Уровень навыков"} attributeValue={"33%"} icon={"Skills"}/>
+
+
+            
+            <Card attributeDesc={"Дней без перерывов"} attributeValue={"10"} icon={"StudyTime"}/>
+            <Card attributeDesc={"Пройдено уроков"} attributeValue={"10"} icon={"DoneLessons"}/>
+            <Card attributeDesc={"Получено достижений"} attributeValue={<>8<span>/11</span></>} icon={"Achievements"}/>
         </div>
     );
 }
