@@ -1,0 +1,23 @@
+.button {
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 12px 24px 12px 24px;
+    border-radius: 10px;
+    color: inherit;
+}
+
+.outlined, .coloured:hover {
+    background: transparent;
+    border: 1px solid var(--gray-color);
+}
+
+.outlined:hover, .coloured {
+    background: var(--violet-color);
+    border: 1px solid transparent;
+}
+
+.shadowed {
+    background: var(--violet-dark-color);
+}
