@@ -1,4 +1,5 @@
-import { Button } from "../../../../shared";
+import { Button, CloseButton } from "../../../../shared";
+
 
 export function HomePage() {
 	return (
@@ -14,6 +15,9 @@ export function HomePage() {
             <Button counter={10} appearance="shadowed">Посмотреть</Button>
             С иконкой
             <Button icon={"Updates"} counter={10} appearance="coloured">Обновления</Button>
+
+            Кнопка закрытия
+            <CloseButton/>
         </div>
     );
 }

@@ -16,10 +16,12 @@ import Community from "./icons/panel/community.svg";
 import Bonuses from "./icons/panel/bonuses.svg";
 import Profile from "./icons/panel/profile.svg";
 import Help from "./icons/panel/help.svg";
+import CloseIcon from "./icons/CloseIcon.svg";
 
 export const Icon = {
     Achievements,
     Bonuses,
+    CloseIcon,
     Community,
     Confetti,
     Courses,

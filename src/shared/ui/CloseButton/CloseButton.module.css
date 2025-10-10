@@ -1,0 +1,10 @@
+.close-button {
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+
+    width: fit-content;
+    height: fit-content;
+}

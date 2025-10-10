@@ -1,3 +1,3 @@
 import { Button } from "./Button/Button";
-
-export { Button }
+import { CloseButton } from "./CloseButton/CloseButton";
+export { Button, CloseButton }
