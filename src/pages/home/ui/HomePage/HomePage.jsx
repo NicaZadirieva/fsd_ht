@@ -1,10 +1,10 @@
-import { Button, CloseButton, Graph } from "../../../../shared";
+import { Button, CloseButton, Graph, Tag } from "../../../../shared";
 import { Card } from "../../../../shared/ui/Card/Card";
 
 
 export function HomePage() {
 	return (
-        <div>
+        <>
             Главная
             Три вида кнопок
             <Button>Посмотреть</Button>
@@ -31,7 +31,12 @@ export function HomePage() {
             <Card attributeDesc={"Получено достижений"} attributeValue={<>8<span>/11</span></>} icon={"Achievements"}/>
         
             <Graph/>
-        
-        </div>
+
+            <Tag appearance="coloured">33%</Tag>
+            <Tag appearance="shadowed">Старт курса 15.04.2024</Tag>
+            <Tag appearance="outlined">Профессия</Tag>
+
+            <Tag appearance="outlined" icon={"Star"}>4.9</Tag>
+        </>
     );
 }

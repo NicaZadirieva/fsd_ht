@@ -5,6 +5,13 @@
     padding: 8px 12px;
     border-radius: 10px;
     border: 1px solid var(--gray-light-color);
+    max-width: 200px;
+    text-wrap: nowrap;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
 }
 .more--button {
     margin-left: auto;
