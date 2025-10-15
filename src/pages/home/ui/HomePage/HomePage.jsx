@@ -1,4 +1,4 @@
-import { Button, CloseButton, Graph, Tag } from "../../../../shared";
+import { Button, CloseButton, Graph, InfoBox, Tag } from "../../../../shared";
 import { Card } from "../../../../shared/ui/Card/Card";
 
 
@@ -37,6 +37,9 @@ export function HomePage() {
             <Tag appearance="outlined">Профессия</Tag>
 
             <Tag appearance="outlined" icon={"Star"}>4.9</Tag>
+
+
+            <InfoBox onShow={() => {}} onClose={() => {}} text={"Мы подвели для вас итоги года обучения! Посмотрите, что было в этом году."}/>
         </>
     );
 }

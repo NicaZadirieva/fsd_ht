@@ -1,0 +1,23 @@
+.info-box {
+    display: flex;
+    padding: 12px 24px;
+    background: var(--violet-dark-color);
+    border: 1px solid var(--violet-light-color);
+    border-radius: 10px;
+    gap: 15px;
+    align-items: center;
+}
+
+.show__btn {
+    margin-left: auto;
+}
+
+.confetti-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--violet-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
