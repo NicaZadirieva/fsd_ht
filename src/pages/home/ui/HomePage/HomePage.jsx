@@ -1,5 +1,5 @@
-import { Button, CloseButton, Graph, InfoBox, Tag } from "../../../../shared";
-import { Card } from "../../../../shared/ui/Card/Card";
+import { Button, CloseButton, Graph, InfoBox, Tag, Tabs, Card } from "../../../../shared";
+
 
 
 export function HomePage() {
@@ -40,6 +40,28 @@ export function HomePage() {
 
 
             <InfoBox onShow={() => {}} onClose={() => {}} text={"Мы подвели для вас итоги года обучения! Посмотрите, что было в этом году."}/>
+            <Tabs 
+            actions={[
+                {
+                    key: 'my-courses',
+                    onClick: () => {},
+                    counter: 3,
+                    text: "Мои курсы"
+                },
+                {
+                    key: 'recommended-courses',
+                    onClick: () => {},
+                    counter: 3,
+                    text: "Рекомендуемые"
+                },
+                {
+                    key: 'all-courses',
+                    onClick: () => {},
+                    text: "Все курсы",
+                    counter: 30
+                }
+            ]}
+            />
         </>
     );
 }
