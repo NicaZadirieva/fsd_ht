@@ -1,0 +1,17 @@
+:root {
+    --white-color: #FAFAFA;
+    --white-light-color: white;
+    --violet-color: #6C38CC;
+    --violet-dark-color: #2E2D3D;
+    --violet-light-color: #A97BFF;
+    --violet-hover-color: #452481;
+    --gray-color: #4D5064;
+    --gray-light-color: #DAD9DE;
+    --gray-dark-color: #1E1F29;
+    --yellow-color: #FDF41A;
+    --black-color: #16171D;
+    --black-dark-color: #101114;
+    --black-light-color: #AFB2BF;
+
+    --font-family: "Fira Sans", sans-serif;
+}

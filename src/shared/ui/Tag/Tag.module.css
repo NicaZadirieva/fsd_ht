@@ -1,0 +1,38 @@
+.tag {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.coloured {
+    padding: 4px 6px;
+    background: var(--violet-color);
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 60px;
+}
+
+.shadowed {
+    padding: 4px 8px;
+    background: var(--violet-dark-color);
+    opacity: .5;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.outlined {
+    padding: 6px 12px 6px 12px;
+    background: transparent;
+    border: 1px solid var(--gray-light-color);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 17px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+}

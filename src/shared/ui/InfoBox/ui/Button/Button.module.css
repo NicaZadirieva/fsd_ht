@@ -1,0 +1,58 @@
+.button {
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 12px 24px 12px 24px;
+    border-radius: 10px;
+    color: inherit;
+    transition: all .3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.outlined, .coloured:hover {
+    background: transparent;
+    border: 1px solid var(--gray-color);
+}
+
+.outlined:hover, .coloured {
+    background: var(--violet-color);
+    border: 1px solid transparent;
+}
+
+.shadowed {
+    background: var(--violet-dark-color);
+}
+
+.shadowed:hover {
+    background: var(--violet-color);
+}
+
+
+/*Счетчик*/
+.counter {
+    padding: 5px;
+    border-radius: 50%;
+    color: inherit;
+    transition: all .3s;
+}
+
+.outlined .counter, .coloured:hover .counter, .shadowed .counter {
+    background: var(--violet-color);
+
+
+}
+
+.outlined:hover .counter, .coloured .counter, .shadowed:hover .counter {
+    background: var(--black-color);
+}
+
+/*Иконка*/
+.button svg {
+    width: 20px;
+    height: 20px;
+}
