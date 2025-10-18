@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import styles from './Tag.module.css';
-import { Icon } from '../../../assets/Icon';
+import { Icon } from '@/assets/Icon';
 
 export function Tag({className, children, appearance, icon, ...props}) {
     const IconComponent = Icon[icon];

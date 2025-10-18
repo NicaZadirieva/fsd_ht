@@ -1,4 +1,4 @@
-import { Button, CloseButton, Graph, InfoBox, Tag, Tabs, Card } from "../../../../shared";
+import { Button, CloseButton, Graph, InfoBox, Tag, Tabs, Card } from "@/shared";
 
 
 

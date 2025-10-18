@@ -2,7 +2,7 @@ import cn from 'classnames';
 import styles from './InfoBox.module.css';
 import { Button } from './ui/Button';
 import { CloseButton } from './ui/CloseButton';
-import { Icon } from '../../../assets/Icon';
+import { Icon } from '@/assets/Icon';
 
 export function InfoBox({text, onClose, onShow, className, ...props}) {
     const IconComponent = Icon['Confetti'];

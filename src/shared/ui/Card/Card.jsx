@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import styles from './Card.module.css';
-import { Icon } from '../../../assets/Icon';
+import { Icon } from '@/assets/Icon';
 
 export function Card({className, icon, attributeDesc, attributeValue, onMoreClick, ...props}) {
     const IconComponent = Icon[icon];

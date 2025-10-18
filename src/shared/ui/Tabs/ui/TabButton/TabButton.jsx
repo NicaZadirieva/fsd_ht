@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import styles from './TabButton.module.css';
-import { Icon } from '../../../../../assets/Icon';
+import { Icon } from '@/assets/Icon';
 
 export function TabButton({children, className, appearance = 'outlined', icon, counter, ...props}) {
     const Counter = <span className={styles.counter}>{counter}</span>;
